@@ -1,0 +1,111 @@
+body {
+    font-family: Montserrat-Black 900;
+}
+h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 40px;
+}
+h5 {
+    font-family: ubuntu;
+    font-weight: bolder;
+}
+hr {
+    width: 70%;
+    margin: auto;
+}
+p {
+    color: #fff;
+}
+
+/* top-container */
+
+#top-container {
+    background-color: #50aa62;
+    text-align: center;
+    
+}
+/* .form-div {
+    width: 50%;
+    margin: auto 350px auto 350px;
+    padding: auto 18px auto 30px;
+} */
+/* .form-class{
+    text-align: left;
+  
+} */
+
+.top-image {
+    width: 60%;
+    margin-top: 1%;
+    position: relative;
+    z-index: 2;
+    top: 30%;
+}
+
+.section-text {
+    
+    padding: 10% 1% 1% 1%;
+    line-height: 2;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* features */
+
+.features-section {
+    background-color: #ffff;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    float: left;
+    padding: 3%;
+}
+
+.features-text {
+    color: #000;
+    text-align-last: left;  
+}
+
+.icon {
+    color: #0df152;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* press */
+
+#press {
+    text-align: center;
+}
+.press-logo {
+    margin:5px auto 5px auto;
+}
+
+/* footer */
+
+#footer {
+    font-family: Ubuntu;
+    text-align: center;
+    padding: 5% 25%;
+    line-height: 5;
+}
+
+.footer-text {
+    color: #000;
+    text-align: center;  
+}
+.footer-button:hover {
+    color: #fff;
+}
+
+@media (max-width: 593px) {
+    .section-text{
+        font-size: 18px;
+        margin-bottom: 0.5em;
+    }
+}
